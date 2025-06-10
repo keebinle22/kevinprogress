@@ -1,3 +1,4 @@
+"use client"
 export default function Experience(){
     const skills1 = ["Selenium", "Java", "Postman", "SQL", "Jenkins"];
     const skills2 = ["Java", "Sprint Boot", "SQL", "JavaScript", "React", "AWS", "Docker"];
@@ -18,7 +19,7 @@ export default function Experience(){
                             </div>
                             <div>
                                 <p className="text-2xl">
-                                    I’m an SDET with 2 years of experience designing and implementing end-to-end test automation frameworks to support scalable, high-quality software delivery. I'm proficient in Java, Selenium, Jenkins, REST APIs, and have integrated automated testing into CI/CD pipelines. I’ve contributed to large-scale cloud migration efforts, ensuring product reliability and system integrity through full-stack validation across the UI, backend, and APIs. I work well in Agile environments, regularly participating in sprint-based test development, defect triaging, and release planning. Throughout my experience, I’ve helped reduce release cycles, improve test coverage, and enhance overall system stability. I’m a collaborative and detail-oriented engineer with a strong passion for building resilient automation solutions that align closely with development workflows and business goals.
+                                    I&apos;m an SDET with 2 years of experience designing and implementing end-to-end test automation frameworks to support scalable, high-quality software delivery. I&apos;m proficient in Java, Selenium, Jenkins, REST APIs, and have integrated automated testing into CI/CD pipelines. I&apos;ve contributed to large-scale cloud migration efforts, ensuring product reliability and system integrity through full-stack validation across the UI, backend, and APIs. I work well in Agile environments, regularly participating in sprint-based test development, defect triaging, and release planning. Throughout my experience, I&apos;ve helped reduce release cycles, improve test coverage, and enhance overall system stability. I&apos;m a collaborative and detail-oriented engineer with a strong passion for building resilient automation solutions that align closely with development workflows and business goals.
                                 </p>
                             </div>
                             <div className="py-2" id="tech-stack">

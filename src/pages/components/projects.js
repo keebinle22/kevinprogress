@@ -50,9 +50,11 @@ export default function Projects(){
                                 </div>
                             </div>
                             <div className="flex flex-col gap-5 border-2 rounded-b-2xl border-purple-500 px-10 py-5 text-2xl hidden" id="desc2">
-                                <span className="font-bold">App Link (to be added)</span>
+                                <span>
+                                    <a target="_blank" href="https://language-learning-inky.vercel.app/" className="font-bold">App Link</a>
+                                </span>
                                 <p>
-                                    Master learning Korean efficiently with this interactive Korean language learning app. Enter your own vocabulary words and reinforce your memory using a combination of flashcards and typing-based practice. Whether you're building your own word lists or reviewing key terms, this app helps you learn actively and retain more through repetition and engagement.
+                                    Master learning Korean efficiently with this interactive Korean language learning app. Enter your own vocabulary words and reinforce your memory using a combination of flashcards and typing-based practice. Whether you&apos;re building your own word lists or reviewing key terms, this app helps you learn actively and retain more through repetition and engagement.
                                 </p>
                                 <div className="py-2" id="tech-stack">
                                     <ul className="flex gap-4 text-lg">
