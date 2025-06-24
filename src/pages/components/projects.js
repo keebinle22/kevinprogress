@@ -24,7 +24,9 @@ export default function Projects(){
                                 </div>
                             </div>
                             <div className="flex flex-col gap-5 border-2 rounded-b-2xl border-purple-500 px-10 py-5 text-2xl hidden" id="desc1">
-                                <span className="font-bold">App Link (to be added)</span>
+                                <span className="font-bold">
+                                    <a target="_blank" href="https://journi-eosin.vercel.app/" className="font-bold">App Link</a>
+                                </span>
                                 <p>
                                     Leverages the Google API to search for locations, optimize a route that includes all selected stops, and display the final route on an interactive map. The app handles real-time input, reorders stops for optimal travel time, and dynamically updates the route display. Designed to help travelers, delivery drivers, or event planners quickly generate optimized multi-stop routes. Integrated Google Directions and Places APIs to streamline location handling and routing logic.
                                 </p>
