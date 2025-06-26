@@ -17,7 +17,7 @@ export default function Projects(){
                         <div className="w-full">
                             <div className="bg-purple-500 flex justify-center items-center p-3">
                                 <div className="flex-1 pl-5 text-4xl">Journi</div>
-                                <div className="hover:bg-purple-300 p-2" onClick={() => handleDropdown(1)}>
+                                <div className="hover:bg-purple-300 p-2 cursor-pointer rounded" onClick={() => handleDropdown(1)}>
                                     <svg viewBox="0 0 100 100" width="25" height="25" preserveAspectRatio="xMidYMid meet">
                                         <polygon points="50,90 10,10 90,10" fill="white" />
                                     </svg>
@@ -45,7 +45,7 @@ export default function Projects(){
                         <div className="w-full">
                             <div className="bg-purple-500 flex justify-center items-center p-3">
                                 <div className="flex-1 pl-5 text-4xl">VocabVault (KR Edition)</div>
-                                <div className="hover:bg-purple-300 p-2" onClick={() => handleDropdown(2)}>
+                                <div className="hover:bg-purple-300 p-2 cursor-pointer rounded" onClick={() => handleDropdown(2)}>
                                     <svg viewBox="0 0 100 100" width="25" height="25" preserveAspectRatio="xMidYMid meet">
                                         <polygon points="50,90 10,10 90,10" fill="white" />
                                     </svg>

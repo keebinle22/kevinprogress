@@ -1,8 +1,8 @@
-import Skills from "./components/skills";
-import Contact from "./components/contact";
-import Experience from "./components/experience";
-import Bios from "./components/bio";
-import Projects from "./components/projects";
+import Skills from "./sections/skills";
+import Contact from "./sections/contact";
+import Experience from "./sections/experience";
+import Bios from "./sections/bio";
+import Projects from "./sections/projects";
 
 export default function Home() {
   return (

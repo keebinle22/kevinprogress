@@ -1,4 +1,8 @@
 "use client"
+
+import Image from "next/image"
+import { IconBtn, ResumeBtn } from "../components/buttons"
+
 export default function Bios(){
 
     return(
@@ -9,9 +13,12 @@ export default function Bios(){
                         <h1 className="text-9xl">Kevin Le</h1>
                         <span className="text-3xl font-semibold">SDE | SDET | QA</span>
                     </div>
-                    <button className="bg-purple-500 hover:bg-purple-400 px-4 py-2 rounded-3xl text-white text-lg">
-                        <a href="/kevinprogress/SWE_KevinLe.pdf" download={"SWE_KevinLe.pdf"}>download resume</a>
-                    </button>
+                    <div className="flex gap-4">
+                        <IconBtn link="https://github.com/keebinle22" fileLoc="/kevinprogress/assets/github.svg" altText="GitHub Icon"/>
+                        <IconBtn link="https://www.linkedin.com/in/kevinle22/" fileLoc="/kevinprogress/assets/linkedin.svg" altText="LinkedIn Icon"/>
+                        <IconBtn link="mailto:kevin.le.2200@gmail.com" fileLoc="/kevinprogress/assets/mail.svg" altText="Mail Icon"/>
+                    </div>
+                    <ResumeBtn/>
                     <p className="text-2xl">Hello! My name is Kevin Le, and I’m seeking opportunities in SDET or QA. As a Software Developer in Test at RBC Wealth Management, I designed and implemented over 500 automated functional and integration test scripts using model-based tools such as ConformIQ and Hexawise, and utilized RBC’s keyword-driven Selenium automation framework. Test cases and results were managed in Tricentis qTest.</p>
                 </div>
             </div>
